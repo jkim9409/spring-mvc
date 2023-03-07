@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.sevlet.SevletApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-04T08:38:34" hostname="JunhoKimui-MacBookAir.local" time="0.173">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.sevlet.SevletApplicationTests" time="0.173"/>
+  <system-out><![CDATA[17:38:34.015 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SevletApplicationTests]: using SpringBootContextLoader
+17:38:34.018 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.sevlet.SevletApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:38:34.018 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.sevlet.SevletApplicationTests]: SevletApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:38:34.028 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SevletApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+17:38:34.063 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/junhokim/Documents/GitHub/spring-mvc/sevlet/build/classes/java/main/hello/sevlet/SevletApplication.class]
+17:38:34.063 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.sevlet.SevletApplication for test class hello.sevlet.SevletApplicationTests
+17:38:34.100 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:38:34.101 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:38:34.102 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SevletApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+17:38:34.102 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SevletApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.4)
+
+2023-03-04T17:38:34.224+09:00  INFO 53450 --- [    Test worker] hello.sevlet.SevletApplicationTests      : Starting SevletApplicationTests using Java 17.0.6 with PID 53450 (started by junhokim in /Users/junhokim/Documents/GitHub/spring-mvc/sevlet)
+2023-03-04T17:38:34.225+09:00  INFO 53450 --- [    Test worker] hello.sevlet.SevletApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-04T17:38:34.673+09:00  INFO 53450 --- [    Test worker] hello.sevlet.SevletApplicationTests      : Started SevletApplicationTests in 0.551 seconds (process running for 1.045)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
